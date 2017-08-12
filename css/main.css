@@ -322,6 +322,13 @@ ul li {
 	height: 100%;
 	opacity: 0;
 	background: rgba(255,57,211,.4);
+
+	/*background: url(../images/background/bg.gif) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;*/
+
 	/*-webkit-transition: all ease .5s;
 	-moz-transition: all ease .5s;
 	transition: all ease .5s;*/
@@ -390,6 +397,11 @@ ul li {
 	text-align: left;
 	background-color: #333;
 	padding: 7%;
+	background: url(../images/background/bg.gif) no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
 }
 .footer h4 {
 	color: #fff;
@@ -397,7 +409,7 @@ ul li {
 	padding: 0px;
 }
 .footer p {
-	color: #c8c8c8;
+	color: #fff;
 }
 .footer a {
 	color: #fff;
